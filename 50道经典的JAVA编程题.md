@@ -11,6 +11,18 @@
 153是一个"水仙花数"，因为153=1的三次方＋5的三次方＋3的三次方。 
 1.程序分析：利用for循环控制100-999个数，每个数分解出个位，十位，百位。<br>
 [FindDaffodilNumber.java](JavaTest50/FindDaffodilNumber.java)<br>
+【程序4】Explode.java <br>
+题目：将一个正整数分解质因数。例如：输入90,打印出90=2*3*3*5。 <br>
+程序分析：对n进行分解质因数，应先找到一个最小的质数k，然后按下述步骤完成： <br>
+>(1)运用两层循环。 <br>
+>(2)外循环得到2~n之间的所有质数，内循环将n循环除以质数，知道不能整除。 <br>
+>(3)要是内循环n等于1了就说明n被完全整除了。<br>
+[Explode.java](JavaTest50/Explode.java)<br>
+【程序5】 ConditionOperator.java <br>
+题目：利用条件运算符的嵌套来完成此题：学习成绩>=90分的同学用A表示，60-89分之间的用B表示，60分以下的用C表示。<br>
+1.程序分析：(a>b)?a:b这是条件运算符的基本例子。<br>
+[ConditionOperator.java](JavaTest50/ConditionOperator.java)<br>
+
 
 
 
