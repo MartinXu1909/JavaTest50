@@ -1,86 +1,86 @@
-ã€ç¨‹åº1ã€‘ TestRabbit.java<br> 
-é¢˜ç›®ï¼šå¤å…¸é—®é¢˜ï¼šæœ‰ä¸€å¯¹å…”å­ï¼Œä»Žå‡ºç”ŸåŽç¬¬3ä¸ªæœˆèµ·æ¯ä¸ªæœˆéƒ½ç”Ÿä¸€å¯¹å…”å­ï¼Œå°å…”å­é•¿åˆ°ç¬¬ä¸‰ä¸ªæœˆåŽæ¯ä¸ªæœˆåˆç”Ÿä¸€å¯¹å…”å­ï¼Œå‡å¦‚å…”å­éƒ½ä¸æ­»ï¼Œé—®æ¯ä¸ªæœˆçš„å…”å­æ€»æ•°ä¸ºå¤šå°‘ï¼Ÿ<br>
-1.ç¨‹åºåˆ†æžï¼š å…”å­çš„è§„å¾‹ä¸ºæ•°åˆ—1,1,2,3,5,8,13,21....<br>
+¡¾³ÌÐò1¡¿ TestRabbit.java<br> 
+ÌâÄ¿£º¹ÅµäÎÊÌâ£ºÓÐÒ»¶ÔÍÃ×Ó£¬´Ó³öÉúºóµÚ3¸öÔÂÆðÃ¿¸öÔÂ¶¼ÉúÒ»¶ÔÍÃ×Ó£¬Ð¡ÍÃ×Ó³¤µ½µÚÈý¸öÔÂºóÃ¿¸öÔÂÓÖÉúÒ»¶ÔÍÃ×Ó£¬¼ÙÈçÍÃ×Ó¶¼²»ËÀ£¬ÎÊÃ¿¸öÔÂµÄÍÃ×Ó×ÜÊýÎª¶àÉÙ£¿<br>
+1.³ÌÐò·ÖÎö£º ÍÃ×ÓµÄ¹æÂÉÎªÊýÁÐ1,1,2,3,5,8,13,21....<br>
 [TestRabbit.java](JavaTest50/TestRabbit.java)<br>
-ã€ç¨‹åº2ã€‘ FindPrimeNumber.java <br>
-é¢˜ç›®ï¼šåˆ¤æ–­101-200ä¹‹é—´æœ‰å¤šå°‘ä¸ªç´ æ•°ï¼Œå¹¶è¾“å‡ºæ‰€æœ‰ç´ æ•°ã€‚ <br>
-1.ç¨‹åºåˆ†æžï¼šåˆ¤æ–­ç´ æ•°çš„æ–¹æ³•ï¼šç”¨ä¸€ä¸ªæ•°åˆ†åˆ«åŽ»é™¤2~sqrt(n)æˆ–è€…2~n/2,å¸¸ç”¨2~n/2ï¼Œå› ä¸ºä¸€ä¸ªæ•°çš„ä¸€åŠçš„å¹³æ–¹å¤§äºŽå…¶æœ¬èº«æ˜¯ä»Ž5å¼€å§‹çš„ï¼Œè§£æ–¹ç¨‹ï¼šn/2çš„å¹³æ–¹>n .å¦‚æžœèƒ½è¢«æ•´é™¤ï¼Œåˆ™è¡¨æ˜Žæ­¤æ•°ä¸æ˜¯ç´ æ•°ï¼Œåä¹‹æ˜¯ç´ æ•°ã€‚<br>
+¡¾³ÌÐò2¡¿ FindPrimeNumber.java <br>
+ÌâÄ¿£ºÅÐ¶Ï101-200Ö®¼äÓÐ¶àÉÙ¸öËØÊý£¬²¢Êä³öËùÓÐËØÊý¡£ <br>
+1.³ÌÐò·ÖÎö£ºÅÐ¶ÏËØÊýµÄ·½·¨£ºÓÃÒ»¸öÊý·Ö±ðÈ¥³ý2~sqrt(n)»òÕß2~n/2,³£ÓÃ2~n/2£¬ÒòÎªÒ»¸öÊýµÄÒ»°ëµÄÆ½·½´óÓÚÆä±¾ÉíÊÇ´Ó5¿ªÊ¼µÄ£¬½â·½³Ì£ºn/2µÄÆ½·½>n .Èç¹ûÄÜ±»Õû³ý£¬Ôò±íÃ÷´ËÊý²»ÊÇËØÊý£¬·´Ö®ÊÇËØÊý¡£<br>
 [FindPrimeNumber.java](JavaTest50/FindPrimeNumber.java)<br>
-ã€ç¨‹åº3ã€‘FindDaffodilNumber.java <br>
-é¢˜ç›®ï¼šæ‰“å°å‡ºæ‰€æœ‰çš„"æ°´ä»™èŠ±æ•°"ï¼Œæ‰€è°“"æ°´ä»™èŠ±æ•°"æ˜¯æŒ‡ä¸€ä¸ªä¸‰ä½æ•°ï¼Œå…¶å„ä½æ•°å­—ç«‹æ–¹å’Œç­‰äºŽè¯¥æ•°æœ¬èº«ã€‚ä¾‹å¦‚ï¼š 
-153æ˜¯ä¸€ä¸ª"æ°´ä»™èŠ±æ•°"ï¼Œå› ä¸º153=1çš„ä¸‰æ¬¡æ–¹ï¼‹5çš„ä¸‰æ¬¡æ–¹ï¼‹3çš„ä¸‰æ¬¡æ–¹ã€‚ <br>
-1.ç¨‹åºåˆ†æžï¼šåˆ©ç”¨forå¾ªçŽ¯æŽ§åˆ¶100-999ä¸ªæ•°ï¼Œæ¯ä¸ªæ•°åˆ†è§£å‡ºä¸ªä½ï¼Œåä½ï¼Œç™¾ä½ã€‚<br>
+¡¾³ÌÐò3¡¿FindDaffodilNumber.java <br>
+ÌâÄ¿£º´òÓ¡³öËùÓÐµÄ"Ë®ÏÉ»¨Êý"£¬ËùÎ½"Ë®ÏÉ»¨Êý"ÊÇÖ¸Ò»¸öÈýÎ»Êý£¬Æä¸÷Î»Êý×ÖÁ¢·½ºÍµÈÓÚ¸ÃÊý±¾Éí¡£ÀýÈç£º 
+153ÊÇÒ»¸ö"Ë®ÏÉ»¨Êý"£¬ÒòÎª153=1µÄÈý´Î·½£«5µÄÈý´Î·½£«3µÄÈý´Î·½¡£ <br>
+1.³ÌÐò·ÖÎö£ºÀûÓÃforÑ­»·¿ØÖÆ100-999¸öÊý£¬Ã¿¸öÊý·Ö½â³ö¸öÎ»£¬Ê®Î»£¬°ÙÎ»¡£<br>
 [FindDaffodilNumber.java](JavaTest50/FindDaffodilNumber.java)<br>
-ã€ç¨‹åº4ã€‘Explode.java <br>
-é¢˜ç›®ï¼šå°†ä¸€ä¸ªæ­£æ•´æ•°åˆ†è§£è´¨å› æ•°ã€‚ä¾‹å¦‚ï¼šè¾“å…¥90,æ‰“å°å‡º90=2*3*3*5ã€‚ <br>
-ç¨‹åºåˆ†æžï¼šå¯¹nè¿›è¡Œåˆ†è§£è´¨å› æ•°ï¼Œåº”å…ˆæ‰¾åˆ°ä¸€ä¸ªæœ€å°çš„è´¨æ•°kï¼Œç„¶åŽæŒ‰ä¸‹è¿°æ­¥éª¤å®Œæˆï¼š <br>
-(1)è¿ç”¨ä¸¤å±‚å¾ªçŽ¯ã€‚ <br>
-(2)å¤–å¾ªçŽ¯å¾—åˆ°2~nä¹‹é—´çš„æ‰€æœ‰è´¨æ•°ï¼Œå†…å¾ªçŽ¯å°†nå¾ªçŽ¯é™¤ä»¥è´¨æ•°ï¼ŒçŸ¥é“ä¸èƒ½æ•´é™¤ã€‚ <br>
-(3)è¦æ˜¯å†…å¾ªçŽ¯nç­‰äºŽ1äº†å°±è¯´æ˜Žnè¢«å®Œå…¨æ•´é™¤äº†ã€‚<br>
+¡¾³ÌÐò4¡¿Explode.java <br>
+ÌâÄ¿£º½«Ò»¸öÕýÕûÊý·Ö½âÖÊÒòÊý¡£ÀýÈç£ºÊäÈë90,´òÓ¡³ö90=2*3*3*5¡£ <br>
+³ÌÐò·ÖÎö£º¶Ôn½øÐÐ·Ö½âÖÊÒòÊý£¬Ó¦ÏÈÕÒµ½Ò»¸ö×îÐ¡µÄÖÊÊýk£¬È»ºó°´ÏÂÊö²½ÖèÍê³É£º <br>
+(1)ÔËÓÃÁ½²ãÑ­»·¡£ <br>
+(2)ÍâÑ­»·µÃµ½2~nÖ®¼äµÄËùÓÐÖÊÊý£¬ÄÚÑ­»·½«nÑ­»·³ýÒÔÖÊÊý£¬ÖªµÀ²»ÄÜÕû³ý¡£ <br>
+(3)ÒªÊÇÄÚÑ­»·nµÈÓÚ1ÁË¾ÍËµÃ÷n±»ÍêÈ«Õû³ýÁË¡£<br>
 [Explode.java](JavaTest50/Explode.java)<br>
-ã€ç¨‹åº5ã€‘ ConditionOperator.java <br>
-é¢˜ç›®ï¼šåˆ©ç”¨æ¡ä»¶è¿ç®—ç¬¦çš„åµŒå¥—æ¥å®Œæˆæ­¤é¢˜ï¼šå­¦ä¹ æˆç»©>=90åˆ†çš„åŒå­¦ç”¨Aè¡¨ç¤ºï¼Œ60-89åˆ†ä¹‹é—´çš„ç”¨Bè¡¨ç¤ºï¼Œ60åˆ†ä»¥ä¸‹çš„ç”¨Cè¡¨ç¤ºã€‚<br>
-1.ç¨‹åºåˆ†æžï¼š(a>b)?a:bè¿™æ˜¯æ¡ä»¶è¿ç®—ç¬¦çš„åŸºæœ¬ä¾‹å­ã€‚<br>
+¡¾³ÌÐò5¡¿ ConditionOperator.java <br>
+ÌâÄ¿£ºÀûÓÃÌõ¼þÔËËã·ûµÄÇ¶Ì×À´Íê³É´ËÌâ£ºÑ§Ï°³É¼¨>=90·ÖµÄÍ¬Ñ§ÓÃA±íÊ¾£¬60-89·ÖÖ®¼äµÄÓÃB±íÊ¾£¬60·ÖÒÔÏÂµÄÓÃC±íÊ¾¡£<br>
+1.³ÌÐò·ÖÎö£º(a>b) a:bÕâÊÇÌõ¼þÔËËã·ûµÄ»ù±¾Àý×Ó¡£<br>
 [ConditionOperator.java](JavaTest50/ConditionOperator.java)<br>
-ã€ç¨‹åº6ã€‘GCDAndLCM.javaÂ <br>
-é¢˜ç›®ï¼šè¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°må’Œnï¼Œæ±‚å…¶æœ€å¤§å…¬çº¦æ•°å’Œæœ€å°å…¬å€æ•°ã€‚<br>Â 
-1.ç¨‹åºåˆ†æžï¼šåˆ©ç”¨è¾—é™¤æ³•ã€‚Â <br>
-2.è¾—è½¬ç›¸é™¤æ³•åŸºäºŽå¦‚ä¸‹åŽŸç†ï¼šä¸¤ä¸ªæ•´æ•°çš„æœ€å¤§å…¬çº¦æ•°ç­‰äºŽå…¶ä¸­è¾ƒå°çš„æ•°å’Œä¸¤æ•°çš„ç›¸é™¤ä½™æ•°çš„æœ€å¤§å…¬çº¦æ•°ã€‚<br>Â 
-3.æœ€å°å…¬å€æ•°ç­‰äºŽä¸¤æ•°ä¹‹ç§¯é™¤ä»¥æœ€å¤§å…¬çº¦æ•°<br>
+¡¾³ÌÐò6¡¿GCDAndLCM.java <br>
+ÌâÄ¿£ºÊäÈëÁ½¸öÕýÕûÊýmºÍn£¬ÇóÆä×î´ó¹«Ô¼ÊýºÍ×îÐ¡¹«±¶Êý¡£<br> 
+1.³ÌÐò·ÖÎö£ºÀûÓÃÕ·³ý·¨¡£ <br>
+2.Õ·×ªÏà³ý·¨»ùÓÚÈçÏÂÔ­Àí£ºÁ½¸öÕûÊýµÄ×î´ó¹«Ô¼ÊýµÈÓÚÆäÖÐ½ÏÐ¡µÄÊýºÍÁ½ÊýµÄÏà³ýÓàÊýµÄ×î´ó¹«Ô¼Êý¡£<br> 
+3.×îÐ¡¹«±¶ÊýµÈÓÚÁ½ÊýÖ®»ý³ýÒÔ×î´ó¹«Ô¼Êý<br>
 [GCDAndLCM.java](JavaTest50/GCDAndLCM.java)<br>
-ã€ç¨‹åº7ã€‘ StChar.javaÂ <br>
-é¢˜ç›®ï¼šè¾“å…¥ä¸€è¡Œå­—ç¬¦ï¼Œåˆ†åˆ«ç»Ÿè®¡å‡ºå…¶ä¸­è‹±æ–‡å­—æ¯ã€ç©ºæ ¼ã€æ•°å­—å’Œå…¶å®ƒå­—ç¬¦çš„ä¸ªæ•°ã€‚Â <br>
-1.ç¨‹åºåˆ†æžï¼šåˆ©ç”¨å¾ªçŽ¯,ä½¿ç”¨Mapå­˜å‚¨æ•°æ®.å…¶å®žå®Œå…¨å¯ä»¥ä½¿ç”¨4ä¸ªå˜é‡æ¥è§£å†³,è¿™è¾¹èˆè¿‘æ±‚è¿œå¤ä¹ ä¸‹Mapå•¦<br>
+¡¾³ÌÐò7¡¿ StChar.java <br>
+ÌâÄ¿£ºÊäÈëÒ»ÐÐ×Ö·û£¬·Ö±ðÍ³¼Æ³öÆäÖÐÓ¢ÎÄ×ÖÄ¸¡¢¿Õ¸ñ¡¢Êý×ÖºÍÆäËü×Ö·ûµÄ¸öÊý¡£ <br>
+1.³ÌÐò·ÖÎö£ºÀûÓÃÑ­»·,Ê¹ÓÃMap´æ´¢Êý¾Ý.ÆäÊµÍêÈ«¿ÉÒÔÊ¹ÓÃ4¸ö±äÁ¿À´½â¾ö,Õâ±ßÉá½üÇóÔ¶¸´Ï°ÏÂMapÀ²<br>
 [StChar.java](JavaTest50/StChar.java)<br>
-ã€ç¨‹åº8ã€‘ TestAdd.javaÂ <br>
-é¢˜ç›®ï¼šæ±‚s=a+aa+aaa+aaaa+aa...açš„å€¼ï¼Œå…¶ä¸­aæ˜¯ä¸€ä¸ªæ•°å­—ã€‚ä¾‹å¦‚2+22+222+2222+22222(æ­¤æ—¶å…±æœ‰5ä¸ªæ•°ç›¸åŠ )ï¼Œå‡ ä¸ªæ•°ç›¸åŠ æœ‰é”®ç›˜æŽ§åˆ¶ã€‚Â <br>
-1.ç¨‹åºåˆ†æžï¼šå…³é”®æ˜¯è®¡ç®—å‡ºæ¯ä¸€é¡¹çš„å€¼ã€‚<br>
+¡¾³ÌÐò8¡¿ TestAdd.java <br>
+ÌâÄ¿£ºÇós=a+aa+aaa+aaaa+aa...aµÄÖµ£¬ÆäÖÐaÊÇÒ»¸öÊý×Ö¡£ÀýÈç2+22+222+2222+22222(´ËÊ±¹²ÓÐ5¸öÊýÏà¼Ó)£¬¼¸¸öÊýÏà¼ÓÓÐ¼üÅÌ¿ØÖÆ¡£ <br>
+1.³ÌÐò·ÖÎö£º¹Ø¼üÊÇ¼ÆËã³öÃ¿Ò»ÏîµÄÖµ¡£<br>
 [TestAdd.java](JavaTest50/TestAdd.java)<br>
-ã€ç¨‹åº9ã€‘ WanShu.javaÂ <br>
-é¢˜ç›®ï¼šä¸€ä¸ªæ•°å¦‚æžœæ°å¥½ç­‰äºŽå®ƒçš„å› å­ä¹‹å’Œï¼Œè¿™ä¸ªæ•°å°±ç§°ä¸º"å®Œæ•°"ã€‚ä¾‹å¦‚6=1ï¼‹2ï¼‹3.ç¼–ç¨‹ æ‰¾å‡º1000ä»¥å†…çš„æ‰€æœ‰å®Œæ•°ã€‚
+¡¾³ÌÐò9¡¿ WanShu.java <br>
+ÌâÄ¿£ºÒ»¸öÊýÈç¹ûÇ¡ºÃµÈÓÚËüµÄÒò×ÓÖ®ºÍ£¬Õâ¸öÊý¾Í³ÆÎª"ÍêÊý"¡£ÀýÈç6=1£«2£«3.±à³Ì ÕÒ³ö1000ÒÔÄÚµÄËùÓÐÍêÊý¡£
 [WanShu.java](JavaTest50/WanShu.java)<br>
-ã€ç¨‹åº10ã€‘TestBall.javaÂ <br>
-é¢˜ç›®ï¼šä¸€çƒä»Ž100ç±³é«˜åº¦è‡ªç”±è½ä¸‹ï¼Œæ¯æ¬¡è½åœ°åŽåè·³å›žåŽŸé«˜åº¦çš„ä¸€åŠï¼›å†è½ä¸‹ï¼Œæ±‚å®ƒåœ¨ç¬¬10æ¬¡è½åœ°æ—¶ï¼Œå…±ç»è¿‡å¤šå°‘ç±³ï¼Ÿç¬¬10æ¬¡åå¼¹å¤šé«˜ï¼Ÿ<br>
+¡¾³ÌÐò10¡¿TestBall.java <br>
+ÌâÄ¿£ºÒ»Çò´Ó100Ã×¸ß¶È×ÔÓÉÂäÏÂ£¬Ã¿´ÎÂäµØºó·´Ìø»ØÔ­¸ß¶ÈµÄÒ»°ë£»ÔÙÂäÏÂ£¬ÇóËüÔÚµÚ10´ÎÂäµØÊ±£¬¹²¾­¹ý¶àÉÙÃ×£¿µÚ10´Î·´µ¯¶à¸ß£¿<br>
 [TestBall.java](JavaTest50/TestBall.java)<br>
-ã€ç¨‹åº11ã€‘ TestTN.javaÂ <br>
-é¢˜ç›®ï¼šæœ‰1ã€2ã€3ã€4ä¸ªæ•°å­—ï¼Œèƒ½ç»„æˆå¤šå°‘ä¸ªäº’ä¸ç›¸åŒä¸”æ— é‡å¤æ•°å­—çš„ä¸‰ä½æ•°ï¼Ÿéƒ½æ˜¯å¤šå°‘ï¼ŸÂ <br>
-1.ç¨‹åºåˆ†æžï¼šå¯å¡«åœ¨ç™¾ä½ã€åä½ã€ä¸ªä½çš„æ•°å­—éƒ½æ˜¯1ã€2ã€3ã€4ã€‚ç»„æˆæ‰€æœ‰çš„æŽ’åˆ—åŽå†åŽ» æŽ‰ä¸æ»¡è¶³æ¡ä»¶çš„æŽ’åˆ—ã€‚<br>
+¡¾³ÌÐò11¡¿ TestTN.java <br>
+ÌâÄ¿£ºÓÐ1¡¢2¡¢3¡¢4¸öÊý×Ö£¬ÄÜ×é³É¶àÉÙ¸ö»¥²»ÏàÍ¬ÇÒÎÞÖØ¸´Êý×ÖµÄÈýÎ»Êý£¿¶¼ÊÇ¶àÉÙ£¿ <br>
+1.³ÌÐò·ÖÎö£º¿ÉÌîÔÚ°ÙÎ»¡¢Ê®Î»¡¢¸öÎ»µÄÊý×Ö¶¼ÊÇ1¡¢2¡¢3¡¢4¡£×é³ÉËùÓÐµÄÅÅÁÐºóÔÙÈ¥ µô²»Âú×ãÌõ¼þµÄÅÅÁÐ¡£<br>
 [TestTN.java](JavaTest50/TestTN.java)<br>
-ã€ç¨‹åº12ã€‘ MoneyAward.javaÂ <br>
-é¢˜ç›®ï¼šä¼ä¸šå‘æ”¾çš„å¥–é‡‘æ ¹æ®åˆ©æ¶¦ææˆã€‚åˆ©æ¶¦(I)ä½ŽäºŽæˆ–ç­‰äºŽ10ä¸‡å…ƒæ—¶ï¼Œå¥–é‡‘å¯æ10%ï¼›åˆ©æ¶¦é«˜äºŽ10ä¸‡å…ƒï¼Œä½ŽäºŽ20ä¸‡å…ƒæ—¶ï¼Œä½ŽäºŽ10ä¸‡å…ƒçš„éƒ¨åˆ†æŒ‰10%ææˆï¼Œé«˜äºŽ10ä¸‡å…ƒçš„éƒ¨åˆ†ï¼Œå¯å¯ææˆ7.5%ï¼›20ä¸‡åˆ°40ä¸‡ä¹‹é—´æ—¶ï¼Œé«˜äºŽ20ä¸‡å…ƒçš„éƒ¨åˆ†ï¼Œå¯ææˆ5%ï¼›40ä¸‡åˆ°60ä¸‡ä¹‹é—´æ—¶é«˜äºŽ40ä¸‡å…ƒçš„éƒ¨åˆ†ï¼Œå¯ææˆ3%ï¼›60ä¸‡åˆ°100ä¸‡ä¹‹é—´æ—¶ï¼Œé«˜äºŽ60ä¸‡å…ƒçš„éƒ¨åˆ†ï¼Œå¯ææˆ1.5%ï¼Œé«˜äºŽ100ä¸‡å…ƒæ—¶ï¼Œè¶…è¿‡100ä¸‡å…ƒçš„éƒ¨åˆ†æŒ‰1%ææˆï¼Œä»Žé”®ç›˜è¾“å…¥å½“æœˆåˆ©æ¶¦Iï¼Œæ±‚åº”å‘æ”¾å¥–é‡‘æ€»æ•°ï¼Ÿ<br>Â 
-1.ç¨‹åºåˆ†æžï¼šè¯·åˆ©ç”¨æ•°è½´æ¥åˆ†ç•Œï¼Œå®šä½ã€‚æ³¨æ„å®šä¹‰æ—¶éœ€æŠŠå¥–é‡‘å®šä¹‰æˆé•¿æ•´åž‹ã€‚<br>
+¡¾³ÌÐò12¡¿ MoneyAward.java <br>
+ÌâÄ¿£ºÆóÒµ·¢·ÅµÄ½±½ð¸ù¾ÝÀûÈóÌá³É¡£ÀûÈó(I)µÍÓÚ»òµÈÓÚ10ÍòÔªÊ±£¬½±½ð¿ÉÌá10%£»ÀûÈó¸ßÓÚ10ÍòÔª£¬µÍÓÚ20ÍòÔªÊ±£¬µÍÓÚ10ÍòÔªµÄ²¿·Ö°´10%Ìá³É£¬¸ßÓÚ10ÍòÔªµÄ²¿·Ö£¬¿É¿ÉÌá³É7.5%£»20Íòµ½40ÍòÖ®¼äÊ±£¬¸ßÓÚ20ÍòÔªµÄ²¿·Ö£¬¿ÉÌá³É5%£»40Íòµ½60ÍòÖ®¼äÊ±¸ßÓÚ40ÍòÔªµÄ²¿·Ö£¬¿ÉÌá³É3%£»60Íòµ½100ÍòÖ®¼äÊ±£¬¸ßÓÚ60ÍòÔªµÄ²¿·Ö£¬¿ÉÌá³É1.5%£¬¸ßÓÚ100ÍòÔªÊ±£¬³¬¹ý100ÍòÔªµÄ²¿·Ö°´1%Ìá³É£¬´Ó¼üÅÌÊäÈëµ±ÔÂÀûÈóI£¬ÇóÓ¦·¢·Å½±½ð×ÜÊý£¿<br> 
+1.³ÌÐò·ÖÎö£ºÇëÀûÓÃÊýÖáÀ´·Ö½ç£¬¶¨Î»¡£×¢Òâ¶¨ÒåÊ±Ðè°Ñ½±½ð¶¨Òå³É³¤ÕûÐÍ¡£<br>
 [MoneyAward.java](JavaTest50/MoneyAward.java)<br>
-ã€ç¨‹åº13ã€‘FindNumber.javaÂ <br>
-é¢˜ç›®ï¼šä¸€ä¸ªæ•´æ•°ï¼Œå®ƒåŠ ä¸Š100åŽæ˜¯ä¸€ä¸ªå®Œå…¨å¹³æ–¹æ•°ï¼Œå†åŠ ä¸Š168åˆæ˜¯ä¸€ä¸ªå®Œå…¨å¹³æ–¹æ•°ï¼Œè¯·é—®è¯¥æ•°æ˜¯å¤šå°‘ï¼ŸÂ <br>
-1.ç¨‹åºåˆ†æžï¼šåœ¨10ä¸‡ä»¥å†…åˆ¤æ–­ï¼Œå…ˆå°†è¯¥æ•°åŠ ä¸Š100åŽå†å¼€æ–¹ï¼Œå†å°†è¯¥æ•°åŠ ä¸Š268åŽå†å¼€æ–¹ï¼Œå¦‚æžœå¼€æ–¹åŽçš„ç»“æžœæ»¡è¶³å¦‚ä¸‹æ¡ä»¶ï¼Œå³æ˜¯ç»“æžœã€‚è¯·çœ‹å…·ä½“åˆ†æžï¼š<br>
+¡¾³ÌÐò13¡¿FindNumber.java <br>
+ÌâÄ¿£ºÒ»¸öÕûÊý£¬Ëü¼ÓÉÏ100ºóÊÇÒ»¸öÍêÈ«Æ½·½Êý£¬ÔÙ¼ÓÉÏ168ÓÖÊÇÒ»¸öÍêÈ«Æ½·½Êý£¬ÇëÎÊ¸ÃÊýÊÇ¶àÉÙ£¿ <br>
+1.³ÌÐò·ÖÎö£ºÔÚ10ÍòÒÔÄÚÅÐ¶Ï£¬ÏÈ½«¸ÃÊý¼ÓÉÏ100ºóÔÙ¿ª·½£¬ÔÙ½«¸ÃÊý¼ÓÉÏ268ºóÔÙ¿ª·½£¬Èç¹û¿ª·½ºóµÄ½á¹ûÂú×ãÈçÏÂÌõ¼þ£¬¼´ÊÇ½á¹û¡£Çë¿´¾ßÌå·ÖÎö£º<br>
 [FindNumber.java](JavaTest50/FindNumber.java)<br>
-ã€ç¨‹åº14ã€‘ TestDay.javaÂ <br>
-é¢˜ç›®ï¼šè¾“å…¥æŸå¹´æŸæœˆæŸæ—¥ï¼Œåˆ¤æ–­è¿™ä¸€å¤©æ˜¯è¿™ä¸€å¹´çš„ç¬¬å‡ å¤©ï¼Ÿ<br>Â 
-1.ç¨‹åºåˆ†æžï¼šä»¥3æœˆ5æ—¥ä¸ºä¾‹ï¼Œåº”è¯¥å…ˆæŠŠå‰ä¸¤ä¸ªæœˆçš„åŠ èµ·æ¥ï¼Œç„¶åŽå†åŠ ä¸Š5å¤©å³æœ¬å¹´çš„ç¬¬å‡ å¤©ï¼Œç‰¹æ®Šæƒ…å†µï¼Œé—°å¹´ä¸”è¾“å…¥æœˆä»½å¤§äºŽ3æ—¶éœ€è€ƒè™‘å¤šåŠ ä¸€å¤©ã€‚<br>
+¡¾³ÌÐò14¡¿ TestDay.java <br>
+ÌâÄ¿£ºÊäÈëÄ³ÄêÄ³ÔÂÄ³ÈÕ£¬ÅÐ¶ÏÕâÒ»ÌìÊÇÕâÒ»ÄêµÄµÚ¼¸Ìì£¿<br> 
+1.³ÌÐò·ÖÎö£ºÒÔ3ÔÂ5ÈÕÎªÀý£¬Ó¦¸ÃÏÈ°ÑÇ°Á½¸öÔÂµÄ¼ÓÆðÀ´£¬È»ºóÔÙ¼ÓÉÏ5Ìì¼´±¾ÄêµÄµÚ¼¸Ìì£¬ÌØÊâÇé¿ö£¬ÈòÄêÇÒÊäÈëÔÂ·Ý´óÓÚ3Ê±Ðè¿¼ÂÇ¶à¼ÓÒ»Ìì¡£<br>
 [TestDay.java](JavaTest50/TestDay.java)<br>
-ã€ç¨‹åº15ã€‘Sort.javaÂ <br>
-é¢˜ç›®ï¼šè¾“å…¥ä¸‰ä¸ªæ•´æ•°x,y,zï¼Œè¯·æŠŠè¿™ä¸‰ä¸ªæ•°ç”±å°åˆ°å¤§è¾“å‡ºã€‚Â <br>
-1.ç¨‹åºåˆ†æžï¼šèˆè¿‘æ±‚è¿œï¼Œç»ƒä¹ å®¹å™¨ï¼Œå¯ä»¥ä½¿ç”¨Listå®¹å™¨å¾ˆç®€å•å®žçŽ°ã€‚<br>
+¡¾³ÌÐò15¡¿Sort.java <br>
+ÌâÄ¿£ºÊäÈëÈý¸öÕûÊýx,y,z£¬Çë°ÑÕâÈý¸öÊýÓÉÐ¡µ½´óÊä³ö¡£ <br>
+1.³ÌÐò·ÖÎö£ºÉá½üÇóÔ¶£¬Á·Ï°ÈÝÆ÷£¬¿ÉÒÔÊ¹ÓÃListÈÝÆ÷ºÜ¼òµ¥ÊµÏÖ¡£<br>
 [Sort.java](JavaTest50/Sort.java)<br>
-ã€ç¨‹åº16ã€‘Nine.javaÂ <br>
-é¢˜ç›®ï¼šè¾“å‡º9*9å£è¯€ã€‚Â <br>
-1.ç¨‹åºåˆ†æžï¼šåˆ†è¡Œä¸Žåˆ—è€ƒè™‘ï¼Œå…±9è¡Œ9åˆ—ï¼ŒiæŽ§åˆ¶è¡Œï¼ŒjæŽ§åˆ¶åˆ—ã€‚<br>
+¡¾³ÌÐò16¡¿Nine.java <br>
+ÌâÄ¿£ºÊä³ö9*9¿Ú¾÷¡£ <br>
+1.³ÌÐò·ÖÎö£º·ÖÐÐÓëÁÐ¿¼ÂÇ£¬¹²9ÐÐ9ÁÐ£¬i¿ØÖÆÐÐ£¬j¿ØÖÆÁÐ¡£<br>
 [Nine.java](JavaTest50/Nine.java)<br>
-ã€ç¨‹åº17ã€‘MonkeyEatPeach.javaÂ <br>
-é¢˜ç›®ï¼šçŒ´å­åƒæ¡ƒé—®é¢˜ï¼šçŒ´å­ç¬¬ä¸€å¤©æ‘˜ä¸‹è‹¥å¹²ä¸ªæ¡ƒå­ï¼Œå½“å³åƒäº†ä¸€åŠï¼Œè¿˜ä¸ç˜¾ï¼Œåˆå¤šåƒäº†ä¸€ä¸ª ç¬¬äºŒå¤©æ—©ä¸Šåˆå°†å‰©ä¸‹çš„æ¡ƒå­åƒæŽ‰ä¸€åŠï¼Œåˆå¤šåƒäº†ä¸€ä¸ªã€‚ä»¥åŽæ¯å¤©æ—©ä¸Šéƒ½åƒäº†å‰ä¸€å¤©å‰©ä¸‹çš„ä¸€åŠé›¶ä¸€ä¸ªã€‚åˆ°ç¬¬10å¤©æ—©ä¸Šæƒ³å†åƒæ—¶ï¼Œè§åªå‰©ä¸‹ä¸€ä¸ªæ¡ƒå­äº†ã€‚æ±‚ç¬¬ä¸€å¤©å…±æ‘˜äº†å¤šå°‘ã€‚Â <br>
-1.ç¨‹åºåˆ†æžï¼šé‡‡å–é€†å‘æ€ç»´çš„æ–¹æ³•ï¼Œä»ŽåŽå¾€å‰æŽ¨æ–­(é€’å½’)<br>
+¡¾³ÌÐò17¡¿MonkeyEatPeach.java <br>
+ÌâÄ¿£ººï×Ó³ÔÌÒÎÊÌâ£ººï×ÓµÚÒ»ÌìÕªÏÂÈô¸É¸öÌÒ×Ó£¬µ±¼´³ÔÁËÒ»°ë£¬»¹²»ñ«£¬ÓÖ¶à³ÔÁËÒ»¸ö µÚ¶þÌìÔçÉÏÓÖ½«Ê£ÏÂµÄÌÒ×Ó³ÔµôÒ»°ë£¬ÓÖ¶à³ÔÁËÒ»¸ö¡£ÒÔºóÃ¿ÌìÔçÉÏ¶¼³ÔÁËÇ°Ò»ÌìÊ£ÏÂµÄÒ»°ëÁãÒ»¸ö¡£µ½µÚ10ÌìÔçÉÏÏëÔÙ³ÔÊ±£¬¼ûÖ»Ê£ÏÂÒ»¸öÌÒ×ÓÁË¡£ÇóµÚÒ»Ìì¹²ÕªÁË¶àÉÙ¡£ <br>
+1.³ÌÐò·ÖÎö£º²ÉÈ¡ÄæÏòË¼Î¬µÄ·½·¨£¬´ÓºóÍùÇ°ÍÆ¶Ï(µÝ¹é)<br>
 [MonkeyEatPeach.java](JavaTest50/MonkeyEatPeach.java)<br>
-ã€ç¨‹åº18ã€‘ Prog.javaÂ <br>
-é¢˜ç›®ï¼šä¸¤ä¸ªä¹’ä¹“çƒé˜Ÿè¿›è¡Œæ¯”èµ›ï¼Œå„å‡ºä¸‰äººã€‚ç”²é˜Ÿä¸ºa,b,cä¸‰äººï¼Œä¹™é˜Ÿä¸ºx,y,zä¸‰äººã€‚å·²æŠ½ç­¾å†³å®šæ¯”èµ›åå•ã€‚æœ‰äººå‘é˜Ÿå‘˜æ‰“å¬æ¯”èµ›çš„åå•ã€‚aè¯´ä»–ä¸å’Œxæ¯”ï¼Œcè¯´ä»–ä¸å’Œx,zæ¯”ï¼Œè¯·ç¼–ç¨‹åºæ‰¾å‡ºä¸‰é˜Ÿèµ›æ‰‹çš„åå•ã€‚
+¡¾³ÌÐò18¡¿ Prog.java <br>
+ÌâÄ¿£ºÁ½¸öÆ¹ÅÒÇò¶Ó½øÐÐ±ÈÈü£¬¸÷³öÈýÈË¡£¼×¶ÓÎªa,b,cÈýÈË£¬ÒÒ¶ÓÎªx,y,zÈýÈË¡£ÒÑ³éÇ©¾ö¶¨±ÈÈüÃûµ¥¡£ÓÐÈËÏò¶ÓÔ±´òÌý±ÈÈüµÄÃûµ¥¡£aËµËû²»ºÍx±È£¬cËµËû²»ºÍx,z±È£¬Çë±à³ÌÐòÕÒ³öÈý¶ÓÈüÊÖµÄÃûµ¥¡£
 [Prog.java](JavaTest50/Prog.java)<br>
-ã€ç¨‹åº19ã€‘LingXing.javaÂ <br>
-é¢˜ç›®ï¼šæ‰“å°å‡ºå¦‚ä¸‹å›¾æ¡ˆï¼ˆè±å½¢ï¼‰<br>Â 
-![](https://githun.com/MartinXu1909/JavaTset50/test50/lingxing.png)<br>
-1.ç¨‹åºåˆ†æžï¼šå…ˆæŠŠå›¾å½¢åˆ†æˆä¸¤éƒ¨åˆ†æ¥çœ‹å¾…ï¼Œå‰å››è¡Œä¸€ä¸ªè§„å¾‹ï¼ŒåŽä¸‰è¡Œä¸€ä¸ªè§„å¾‹ï¼Œåˆ©ç”¨åŒé‡ forå¾ªçŽ¯ï¼Œç¬¬ä¸€å±‚æŽ§åˆ¶è¡Œï¼Œç¬¬äºŒå±‚æŽ§åˆ¶åˆ—ã€‚<br>
+¡¾³ÌÐò19¡¿LingXing.java <br>
+ÌâÄ¿£º´òÓ¡³öÈçÏÂÍ¼°¸£¨ÁâÐÎ£©<br> 
+![](https://github.com/MartinXu1909/JavaTest50/blob/master/test50/lingxing.png)<br>
+1.³ÌÐò·ÖÎö£ºÏÈ°ÑÍ¼ÐÎ·Ö³ÉÁ½²¿·ÖÀ´¿´´ý£¬Ç°ËÄÐÐÒ»¸ö¹æÂÉ£¬ºóÈýÐÐÒ»¸ö¹æÂÉ£¬ÀûÓÃË«ÖØ forÑ­»·£¬µÚÒ»²ã¿ØÖÆÐÐ£¬µÚ¶þ²ã¿ØÖÆÁÐ¡£<br>
 [LingXing.java](JavaTest50/LingXing.java)<br>
-ã€ç¨‹åº20ã€‘TestAdd2.java<br>
-é¢˜ç›®ï¼šæœ‰ä¸€åˆ†æ•°åºåˆ—ï¼š2/1ï¼Œ3/2ï¼Œ5/3ï¼Œ8/5ï¼Œ13/8ï¼Œ21/13...æ±‚å‡ºè¿™ä¸ªæ•°åˆ—çš„å‰20é¡¹ä¹‹å’Œã€‚<br>
-1.ç¨‹åºåˆ†æžï¼šè¯·æŠ“ä½åˆ†å­ä¸Žåˆ†æ¯çš„å˜åŒ–è§„å¾‹ã€‚<br>
+¡¾³ÌÐò20¡¿TestAdd2.java<br>
+ÌâÄ¿£ºÓÐÒ»·ÖÊýÐòÁÐ£º2/1£¬3/2£¬5/3£¬8/5£¬13/8£¬21/13...Çó³öÕâ¸öÊýÁÐµÄÇ°20ÏîÖ®ºÍ¡£<br>
+1.³ÌÐò·ÖÎö£ºÇë×¥×¡·Ö×ÓÓë·ÖÄ¸µÄ±ä»¯¹æÂÉ¡£<br>
 [TestAdd2.java](JavaTest50/TestAdd2.java)<br>
 
 
