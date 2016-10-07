@@ -14,9 +14,9 @@
 【程序4】Explode.java <br>
 题目：将一个正整数分解质因数。例如：输入90,打印出90=2*3*3*5。 <br>
 程序分析：对n进行分解质因数，应先找到一个最小的质数k，然后按下述步骤完成： <br>
-*(1)运用两层循环。 <br>
-*(2)外循环得到2~n之间的所有质数，内循环将n循环除以质数，知道不能整除。 <br>
-*(3)要是内循环n等于1了就说明n被完全整除了。<br>
+(1)运用两层循环。 <br>
+(2)外循环得到2~n之间的所有质数，内循环将n循环除以质数，知道不能整除。 <br>
+(3)要是内循环n等于1了就说明n被完全整除了。<br>
 [Explode.java](JavaTest50/Explode.java)<br>
 【程序5】 ConditionOperator.java <br>
 题目：利用条件运算符的嵌套来完成此题：学习成绩>=90分的同学用A表示，60-89分之间的用B表示，60分以下的用C表示。<br>
@@ -24,9 +24,9 @@
 [ConditionOperator.java](JavaTest50/ConditionOperator.java)<br>
 【程序6】GCDAndLCM.java <br>
 题目：输入两个正整数m和n，求其最大公约数和最小公倍数。<br> 
-*1.程序分析：利用辗除法。 <br>
-*2.辗转相除法基于如下原理：两个整数的最大公约数等于其中较小的数和两数的相除余数的最大公约数。<br> 
-*3.最小公倍数等于两数之积除以最大公约数<br>
+1.程序分析：利用辗除法。 <br>
+2.辗转相除法基于如下原理：两个整数的最大公约数等于其中较小的数和两数的相除余数的最大公约数。<br> 
+3.最小公倍数等于两数之积除以最大公约数<br>
 [GCDAndLCM.java](JavaTest50/GCDAndLCM.java)<br>
 【程序7】 StChar.java <br>
 题目：输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数。 <br>
@@ -75,15 +75,7 @@
 [Prog.java](JavaTest50/Prog.java)<br>
 【程序19】LingXing.java <br>
 题目：打印出如下图案（菱形）<br> 
-<br>
-   *
-  ***
- *****
-*******
- *****
-  ***
-   *
- <br>
+![](https://githun.com/MartinXu1909/JavaTset50/test50/lingxing.png)<br>
 1.程序分析：先把图形分成两部分来看待，前四行一个规律，后三行一个规律，利用双重 for循环，第一层控制行，第二层控制列。<br>
 [LingXing.java](JavaTest50/LingXing.java)<br>
 【程序20】TestAdd2.java<br>
