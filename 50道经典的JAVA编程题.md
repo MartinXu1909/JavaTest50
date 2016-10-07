@@ -62,5 +62,35 @@
 题目：输入三个整数x,y,z，请把这三个数由小到大输出。 <br>
 1.程序分析：舍近求远，练习容器，可以使用List容器很简单实现。<br>
 [Sort.java](JavaTest50/Sort.java)<br>
+【程序16】Nine.java <br>
+题目：输出9*9口诀。 <br>
+1.程序分析：分行与列考虑，共9行9列，i控制行，j控制列。<br>
+[Nine.java](JavaTest50/Nine.java)<br>
+【程序17】MonkeyEatPeach.java <br>
+题目：猴子吃桃问题：猴子第一天摘下若干个桃子，当即吃了一半，还不瘾，又多吃了一个 第二天早上又将剩下的桃子吃掉一半，又多吃了一个。以后每天早上都吃了前一天剩下的一半零一个。到第10天早上想再吃时，见只剩下一个桃子了。求第一天共摘了多少。 <br>
+1.程序分析：采取逆向思维的方法，从后往前推断(递归)<br>
+[MonkeyEatPeach.java](JavaTest50/MonkeyEatPeach.java)<br>
+【程序18】 Prog.java <br>
+题目：两个乒乓球队进行比赛，各出三人。甲队为a,b,c三人，乙队为x,y,z三人。已抽签决定比赛名单。有人向队员打听比赛的名单。a说他不和x比，c说他不和x,z比，请编程序找出三队赛手的名单。
+[Prog.java](JavaTest50/Prog.java)<br>
+【程序19】LingXing.java <br>
+题目：打印出如下图案（菱形）<br> 
+<br>
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+ <br>
+1.程序分析：先把图形分成两部分来看待，前四行一个规律，后三行一个规律，利用双重 for循环，第一层控制行，第二层控制列。<br>
+[LingXing.java](JavaTest50/LingXing.java)<br>
+【程序20】TestAdd2.java<br>
+题目：有一分数序列：2/1，3/2，5/3，8/5，13/8，21/13...求出这个数列的前20项之和。<br>
+1.程序分析：请抓住分子与分母的变化规律。<br>
+[TestAdd2.java](JavaTest50/TestAdd2.java)<br>
+
+
 
 
