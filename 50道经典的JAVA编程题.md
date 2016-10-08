@@ -82,6 +82,25 @@
 题目：有一分数序列：2/1，3/2，5/3，8/5，13/8，21/13...求出这个数列的前20项之和。<br>
 1.程序分析：请抓住分子与分母的变化规律。<br>
 [TestAdd2.java](JavaTest50/TestAdd2.java)<br>
+【程序21】TestJieCheng.java<br>
+题目：求1+2!+3!+...+20!的和<br>
+1.程序分析：此程序只是把累加变成了累乘<br>
+[TestJieCheng.java](JavaTest50/TestJieCheng.java)<br>
+【程序22】TestJieCheng2.java<br>
+题目：利用递归方法求5!。 <br>
+1.程序分析：递归公式：fn=fn_1*4!<br>
+递归函数详见【程序21】<br>
+[TestJieCheng2.java](JavaTest50/TestJieCheng2.java)<br>
+【程序23】TestAge.java<br>
+题目：有5个人坐在一起，问第五个人多少岁？他说比第4个人大2岁。问第4个人岁数，他说比第3个人大2岁。问第三个人，又说比第2人大两岁。问第2个人，说比第一个人大两岁。最后问第一个人，他说是10岁。请问第五个人多大？<br>
+1.程序分析：利用递归的方法，递归分为回推和递推两个阶段。要想知道第五个人岁数，需知道第四人的岁数,依次类推，推到第一人（10岁），再往回推。<br>
+[TestAge.java](JavaTest50/TestAge.java)<br>
+【程序24】TestNumber.java<br>
+题目：给一个不多于5位的正整数，要求：一、求它是几位数，二、逆序打印出各位数字。<br>
+[TestNumber.java](JavaTest50/TestAge.java)<br>
+【程序25】 HuiWenShu.java<br>
+题目：一个5位数，判断它是不是回文数。即12321是回文数，个位与万位相同，十位与千位相同。<br>
+[HuiWenShu.java](JavaTest50/HuiWenShu.java)<br>
 
 
 
