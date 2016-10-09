@@ -101,28 +101,28 @@
 【程序25】 HuiWenShu.java<br>
 题目：一个5位数，判断它是不是回文数。即12321是回文数，个位与万位相同，十位与千位相同。<br>
 [HuiWenShu.java](https://github.com/MartinXu1909/JavaTest50/blob/master/HuiWenShu.java)<br>
-【程序26】Week.java
-题目：请输入星期几的第一个字母来判断一下是星期几，如果第一个字母一样，则继续 判断第二个字母。
+【程序26】Week.java<br>
+题目：请输入星期几的第一个字母来判断一下是星期几，如果第一个字母一样，则继续 判断第二个字母。<br>
 1.程序分析：用情况语句比较好，如果第一个字母一样，则判断用情况语句或if语句判断第二个字母。
-使用字符数组搞定
-
-程序27】 SuShu.java
-题目：求100之内的素数
-参考见【程序2】 FindPrimeNumber.java?
-
-【程序28】 TestSort.java
-题目：对10个数进行排序
-1.程序分析：直接使用java的Collections.sort()方法。。。
-参见【程序15】Sort.java
-
-【程序29】 Matrix.java
-题目：求一个n*n矩阵对角线元素之和
-1.程序分析：利用双重for循环控制输入二维数组，再将a[i][i]累加后输出。
-
-【程序30】 ArraySort.java
-题目：有一个已经排好序的数组。现输入一个数，要求按原来的规律将它插入数组中。
-1. 程序分析：使用二分法
-
+使用字符数组搞定<br>
+[Week.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Week.java)<br>
+程序27】 SuShu.java<br>
+题目：求100之内的素数<br>
+参考见【程序2】 [FindPrimeNumber.java](https://github.com/MartinXu1909/JavaTest50/blob/master/FindPrimeNumber.java)<br>
+[SuShu.java](https://github.com/MartinXu1909/JavaTest50/blob/master/SuShu.java)<br>
+【程序28】 TestSort.java<br>
+题目：对10个数进行排序<br>
+1.程序分析：直接使用java的Collections.sort()方法。。。<br>
+参见【程序15】[Sort.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Sort.java)<br>
+[TestSort.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestSort.java)<br>
+【程序29】 Matrix.java<br>
+题目：求一个n*n矩阵对角线元素之和<br>
+1.程序分析：利用双重for循环控制输入二维数组，再将a[i][i]累加后输出。<br>
+[Matrix.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Matrix.java)<br>
+【程序30】 ArraySort.java<br>
+题目：有一个已经排好序的数组。现输入一个数，要求按原来的规律将它插入数组中。<br>
+1. 程序分析：使用二分法<br>
+[ArraySort.java](https://github.com/MartinXu1909/JavaTest50/blob/master/ArraySort.java)<br>
 
 
 
