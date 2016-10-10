@@ -123,6 +123,26 @@
 题目：有一个已经排好序的数组。现输入一个数，要求按原来的规律将它插入数组中。<br>
 1. 程序分析：使用二分法<br>
 [ArraySort.java](https://github.com/MartinXu1909/JavaTest50/blob/master/ArraySort.java)<br>
+【程序31】 ArrayConverse.java<br>
+题目：将一个数组逆序输出。<br>
+1.程序分析：用第一个与最后一个交换。<br>
+[ArrayConverse.java](https://github.com/MartinXu1909/JavaTest50/blob/master/ArrayConverse.java)<br>
+【程序32】 Ex32.java<br>
+题目：取一个整数a从右端开始的4～7位。<br>
+[Ex32.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Ex32.java)<br>
+【程序33】YangHui.java<br>
+题目：打印出杨辉三角形（要求打印出6行如下图）?<br>
+![](https://github.com/MartinXu1909/JavaTest50/blob/master/test50/yanghui.png)<br>
+[YangHui.java](https://github.com/MartinXu1909/JavaTest50/blob/master/YangHui.java)<br>
+【程序34】 Ex34.java<br>
+题目：输入3个数a,b,c，按大小顺序输出<br>
+1.程序分析：利用指针方法<br>
+参见【程序15】[Sort.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Sort.java)<br>
+[Ex34.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Ex34.java)<br>
+【程序35】 ArrayChange.java<br>
+题目：输入数组，最大的与第一个元素交换，最小的与最后一个元素交换，输出数组。<br>
+[ArrayChange.java](https://github.com/MartinXu1909/JavaTest50/blob/master/ArrayChange.java)<br>
+
 
 
 

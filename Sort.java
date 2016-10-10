@@ -15,7 +15,7 @@ import java.util.List;
  * 1.程序分析：舍近求远，练习容器，可以使用List容器很简单实现。
  */
 public class Sort {
-public static List<Double> readDouble(String str, String sp){
+	public static List<Double> readDouble(String str, String sp){
 		List<Double> l = new ArrayList<Double>();
 		int j = 0;
 		for(int i=0; i<str.length(); i++){
