@@ -142,7 +142,21 @@
 【程序35】 ArrayChange.java<br>
 题目：输入数组，最大的与第一个元素交换，最小的与最后一个元素交换，输出数组。<br>
 [ArrayChange.java](https://github.com/MartinXu1909/JavaTest50/blob/master/ArrayChange.java)<br>
-
-
-
-
+【程序36】 Array1.java?<br>
+题目：有n个整数，使其前面各数顺序向后移m个位置，最后m个数变成最前面的m个数?<br>
+[Array1.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Array1.java)<br>
+【程序37】 Test3Quit.java<br>
+题目：有n个人围成一圈，顺序排号。从第一个人开始报数（从1到3报数），凡报到3的人退出圈子，问最后留下的是原来第几号的那位。<br>
+[Test3Quit.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Test3Quit.java)<br>
+【程序39】 Test2.java<br>
+题目：编写一个函数，输入n为偶数时，调用函数求1/2+1/4+...+1/n,当输入n为奇数时，调用函数
+1/1+1/3+...+1/n(利用指针函数)<br>
+注：java里面貌似没有指针函数吧！这个题是不是C++的啊！我就不纠结指针函数了，实现功能就行了<br>
+[Test2.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Test2.java)<br>
+【程序38】 TestLength.java<br>
+题目：写一个函数，求一个字符串的长度，在main函数中输入字符串，并输出其长度。<br>
+[TestLength](https://github.com/MartinXu1909/JavaTest50/blob/master/TestLength.java)<br>
+【程序40】 Test3.java<br>
+题目：字符串排序。<br>
+注:把字符串转成char，进行冒泡排序<br>
+[Test3.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Test3.java)<br>
