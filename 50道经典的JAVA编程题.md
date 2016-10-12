@@ -155,8 +155,38 @@
 [Test2.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Test2.java)<br>
 【程序38】 TestLength.java<br>
 题目：写一个函数，求一个字符串的长度，在main函数中输入字符串，并输出其长度。<br>
-[TestLength](https://github.com/MartinXu1909/JavaTest50/blob/master/TestLength.java)<br>
+[TestLength.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestLength.java)<br>
 【程序40】 Test3.java<br>
 题目：字符串排序。<br>
 注:把字符串转成char，进行冒泡排序<br>
 [Test3.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Test3.java)<br>
+【程序41】 MonkeyPeach.java?<br>
+题目：海滩上有一堆桃子，五只猴子来分。第一只猴子把这堆桃子凭据分为五份，多了一个，这只猴子把多的一个扔入海中，拿走了一份。第二只猴子把剩下的桃子又平均分成五份，又多了一个，它同样把多的一个扔入海中，拿走了一份，第三、第四、第五只猴子都是这样做的，问海滩上原来最少有多少个桃子？<br>
+注: 递归得到还没拿桃子时的桃子数，每次得到的值必须是整数<br>
+[MonkeyPeach.java](https://github.com/MartinXu1909/JavaTest50/blob/master/MonkeyPeach.java)<br>
+感觉上面的实现方案有点小题大做了，要是直接验证结果的话会更快的得到答案，看代码：<br>
+[MonkeyPeach_1.java](https://github.com/MartinXu1909/JavaTest50/blob/master/MonkeyPeach_1.java)<br>
+【程序42】 Test4.java<br>
+题目：809*??=800*??+9*??+1<br>
+其中??代表的两位数,8*??的结果为两位数，9*??的结果为3位数。求??代表的两位数，及809*??后的结果。<br>
+//题目错了！809x=800x+9x+1这样的方程无解。去掉那个1就有解了。<br>
+[Test4.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Test4.java)<br>
+【程序43】 Test5.java<br>
+题目：求0—7所能组成的奇数个数。<br>
+注：当有一位数时：有1.3.5.7这4个奇数<br>
+当有两位数时：最高为有7种（除0）选择，最低为有4（1.3.5.7为奇数的条件）种? 总数为4*7<br>
+当有三位数时：最高为有7中（除0）选择，第二位有8中选择，最后一位4种（1.3.5.7） 总数 4*8*7<br>
+当有四位数时：最高为有7中（除0）选择，第三位有8中选择，第二位有8中选择，最后一位4种（1.3.5.7） 总数 4*8*8*7<br>
+//组成1位数是4个。<br>
+//组成2位数是7*4个。<br>
+//组成3位数是7*8*4个。<br>
+//组成4位数是7*8*8*4个。<br>
+//......<br>
+[Test5.java](https://github.com/MartinXu1909/JavaTest50/blob/master/Test5.java)<br>
+【程序44】 TestEven.java<br>
+题目：一个偶数总能表示为两个素数之和。<br>
+[TestEven.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestEven.java)<br>
+【程序45】TestPrime9.java<br>
+题目：判断一个素数能被几个9整除<br>
+//题目错了吧？能被9整除的就不是素数了！所以改成整数了。<br>
+[TestPrime9.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestPrime9.java)<br>
