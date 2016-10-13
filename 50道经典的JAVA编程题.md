@@ -190,3 +190,20 @@
 题目：判断一个素数能被几个9整除<br>
 //题目错了吧？能被9整除的就不是素数了！所以改成整数了。<br>
 [TestPrime9.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestPrime9.java)<br>
+【程序46】 TestString.java<br>
+题目：两个字符串连接程序<br>
+[TestString.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestString.java)<br>
+【程序47】 TestPrint.java<br>
+题目：读取7个数（1—50）的整数值，每读取一个值，程序打印出该值个数的＊。<br>
+[TestPrint.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestPrint.java)<br>
+程序48】 TestCode.java<br>
+题目：某个公司采用公用电话传递数据，数据是四位的整数，在传递过程中是加密的，加密规则如下：每位数字
+都加上5,然后用和除以10的余数代替该数字，再将第一位和第四位交换，第二位和第三位交换。<br>
+[TestCode.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestCode.java)<br>
+【程序49】 TestString2.java<br>
+题目：计算字符串中子串出现的次数<br>
+[TestString2.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestString2.java)<br>
+程序50】TestStu.java<br>
+题目：有五个学生，每个学生有3门课的成绩，从键盘输入以上数据（包括学生号，姓名，三门课成绩），计算
+出平均成绩，况原有的数据和计算出的平均分数存放在磁盘文件"stud"中。<br>
+[TestStu.java](https://github.com/MartinXu1909/JavaTest50/blob/master/TestStu.java)<br>
